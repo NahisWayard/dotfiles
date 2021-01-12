@@ -1,0 +1,246 @@
+########################
+# >>> Basic Config <<< #
+########################
+
+set $web_browser "firefox"
+
+# >>> Gaps <<<
+	#smart_gaps on
+	gaps inner 10
+	gaps outer 10
+  for_window [class="^.*"] border pixel 0
+
+# >>> Windows button <<<
+	set $mod Mod1
+	set $win Mod4
+
+# >>> Workspaces <<<
+	set $ws1 "1:"
+	set $ws2 "2:"
+	set $ws3 "3:"
+	set $ws4 "4:"
+	set $ws5 "5:"
+	set $ws6 "6:"
+	set $ws7 "7:"
+	set $ws8 "8:"
+	set $ws9 "9:"
+	set $ws0 "10:"
+
+# >>> Default layout <<<
+	#workspace_layout tabbed
+
+# >>> Font <<<
+	font pango:monospace 8
+	#font pango:DejaVu Sans Mono 8
+
+# >>> Use Mouse+$mod to drag floating windows <<<
+	floating_modifier $mod
+
+################################
+# >>> Keyboard Shortcuts  <<<  #
+################################
+
+# >>> Kill focused window <<<
+	bindsym $mod+q kill
+	#bindsym $mod+Shift+q exec xkill
+
+# >>> Change focus <<<
+	bindsym $win+Left focus left
+	bindsym $win+Down focus down
+	bindsym $win+Up focus up
+	bindsym $win+Right focus right
+
+# >>> Move focused window <<<
+	bindsym $win+Shift+Left move left
+	bindsym $win+Shift+Down move down
+	bindsym $win+Shift+Up move up
+	bindsym $win+Shift+Right move right
+
+# >>> Split orientation <<<
+	bindsym $mod+h split h
+	bindsym $mod+v split v
+
+# >>> Change container layout (stacked, tabbed, toggle split) <<<
+	bindsym $mod+s layout stacking
+	bindsym $mod+w layout tabbed
+	bindsym $mod+e layout toggle split
+
+# >>> Fullscreen for focused container <<<
+  bindsym $mod+f fullscreen
+  bindsym $mod+g fullscreen global #multiple monitors
+
+# >>> Toggle tiling / floating <<<
+  bindsym $mod+Shift+space floating toggle
+
+# >>> Change focus between tiling / floating windows <<<
+  bindsym $mod+space focus mode_toggle
+
+# >>> Focus the container <<<
+  bindsym $mod+a focus parent
+  bindsym $mod+z focus child
+
+# >>> Workspace <<<
+  bindsym $mod+Prior workspace prev_on_output
+  bindsym $mod+Next workspace next_on_output
+  bindsym $mod+Shift+Prior workspace prev
+  bindsym $mod+Shift+Next workspace next
+
+# >>> Move morkspace to other monitor  <<<
+  bindsym $win+Control+Up move workspace to output up
+  bindsym $win+Control+Down move workspace to output down
+  bindsym $win+Control+Left move workspace to output left
+  bindsym $win+Control+Right move workspace to output right
+
+# >>> Change focused workspace <<<
+  bindsym $mod+1 workspace $ws1
+  bindsym $mod+2 workspace $ws2
+  bindsym $mod+3 workspace $ws3
+  bindsym $mod+4 workspace $ws4
+  bindsym $mod+5 workspace $ws5
+  bindsym $mod+6 workspace $ws6
+  bindsym $mod+7 workspace $ws7
+  bindsym $mod+8 workspace $ws8
+  bindsym $mod+9 workspace $ws9
+  bindsym $mod+0 workspace $ws0
+
+# >>> Move focused container to workspace <<<
+  bindsym $mod+Shift+1 move container to workspace $ws1
+  bindsym $mod+Shift+2 move container to workspace $ws2
+  bindsym $mod+Shift+3 move container to workspace $ws3
+  bindsym $mod+Shift+4 move container to workspace $ws4
+  bindsym $mod+Shift+5 move container to workspace $ws5
+  bindsym $mod+Shift+6 move container to workspace $ws6
+  bindsym $mod+Shift+7 move container to workspace $ws7
+  bindsym $mod+Shift+8 move container to workspace $ws8
+  bindsym $mod+Shift+9 move container to workspace $ws9
+  bindsym $mod+Shift+0 move container to workspace $ws0
+
+# >>> Sticky window (on all workspaces) <<<
+  bindsym $mod+Shift+s sticky toggle
+
+# >>> Reload the configuration file <<<
+  bindsym $mod+Shift+c reload
+
+# >>> Restart i3 inplace (preserves your layout/session, can be used to upgrade i3) <<<
+  bindsym $mod+Shift+r restart
+
+# >>> Exit i3 (logs you out of your X session) <<<
+	bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# >>> Resize window <<<
+bindsym $mod+r mode "resize"
+mode "resize" {
+	# These bindings trigger as soon as you enter the resize mode
+	# Pressing left will shrink the window’s width.
+	# Pressing right will grow the window’s width.
+	# Pressing up will shrink the window’s height.
+	# Pressing down will grow the window’s height.
+	bindsym j resize shrink width 10 px or 10 ppt
+	bindsym k resize grow height 10 px or 10 ppt
+	bindsym l resize shrink height 10 px or 10 ppt
+	bindsym m resize grow width 10 px or 10 ppt
+	
+	# same bindings, but for the arrow keys
+	bindsym Left resize shrink width 10 px or 10 ppt
+	bindsym Down resize grow height 10 px or 10 ppt
+	bindsym Up resize shrink height 10 px or 10 ppt
+	bindsym Right resize grow width 10 px or 10 ppt
+	
+	# back to normal: Enter or Escape or $mod+r
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+	bindsym $mod+r mode "default"
+}
+
+# >>> Move floating window <<<
+  bindsym $mod+m focus floating; mode "move"
+  mode "move" {
+    bindsym Left move left 10px
+    bindsym Down move down 10px
+    bindsym Up move up 10px
+    bindsym Right move right 10px
+
+    bindsym Shift+Left move left 30px
+    bindsym Shift+Down move down 30px
+    bindsym Shift+Up move up 30px
+    bindsym Shift+Right move right 30px
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "resize"
+    bindsym $mod+m mode "default"
+  }
+
+# >>> Application Launcher <<<
+  bindsym $mod+Shift+Return exec $web_browser
+  bindsym $mod+Return exec i3-sensible-terminal
+  bindsym $mod+d exec $HOME/.config/rofi/scripts/launcher.sh
+  bindsym $mod+Tab exec	$HOME/.config/rofi/scripts/window_switcher.sh
+  bindsym $mod+p exec teiler
+
+#  bindsym $mod+Control+Delete	exec	~/.config/rofi/system
+#bindsym $mod+Shift+d exec #TODO Utils SSH / Emojis / Finder / Screenshoot
+
+# >>> Keybindings for ThinkPad laptop <<<
+  # Use pactl to adjust volume in PulseAudio.
+  bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+  bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+  bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+  bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+  
+  bindsym XF86MonBrightnessDown exec --no-startup-id 	brightnessctl s 100-
+  bindsym XF86MonBrightnessUp exec --no-startup-id 	brightnessctl s 100+
+  #bindsym XF86Display exec autorandr --change
+  #bindsym XF86WLAN
+  #bindsym XF86Tools
+  #bindsym XF86Bluetooth exec blueman-manager
+
+# >>> Music <<<
+  bindsym Control+$mod+space exec "playerctl play-pause"
+  bindsym XF86AudioPlay exec "playerctl play-pause"
+  bindsym Control+$mod+Right exec "playerctl next"
+  bindsym Control+$mod+Left exec "playerctl previous"
+  bindsym $win+m workspace $ws9
+  bindsym $win+Shift+m move container to workspace $ws9
+
+# >>> Lock screen <<<
+bindsym Control+$win+l exec "$HOME/.config/polybar/scripts/lock.sh"
+
+#########################
+# >>> Window rules  <<< #
+#########################
+
+# >>> Floating <<< #
+  for_window [class="jetbrains-toolbox" instance="JetBrains Toolbox" title="JetBrains Toolbox"] floating enable
+  for_window [class="floating"] floating enable
+  for_window [class="Nitrogen"] floating enable
+  for_window [class="jetbrains-*" title="win0"] floating enable
+
+# >>> Workspaces assignement <<< #
+  assign [class="Thunderbird"] $ws8
+  assign [title="htop"] $ws0
+  assign [class="jetbrains-*"] $ws2
+
+  assign [class="Caprine"] $ws7
+  assign [class="discord"] $ws7
+  assign [class="teams-for-linux"] $ws7
+  assign [class="Android Messages"] $ws7
+
+  for_window [class="Spotify"] move to workspace $ws9
+
+# >>> Fullscreen assignement <<<
+	#for_window [class=""] fullscreen enable
+
+######################
+# >>> On startup <<< #
+######################
+
+  exec_always --no-startup-id $HOME/.config/polybar/launch.sh forest
+  exec_always --no-startup-id dunst #Notification daemon
+  #exec_always --no-startup-id picom -b #Window Compositor
+  exec_always --no-startup-id ~/.config/i3/launch_redshift.sh
+
+  exec --no-startup-id nitrogen --restore &
+  exec --no-startup-id nm-applet
+  exec --no-startup-id blueman-applet
+  exec --no-startup-id udiskie
