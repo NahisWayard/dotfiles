@@ -36,9 +36,16 @@ local function updateSpaceIcons(spaceId, workspaceName)
         end
 
         if spaces[spaceId] then
-            spaces[spaceId].item:set({
-                label = { string = icon_strip, drawing = shouldDraw}
-            })
+            if icon_strip == "" then
+                spaces[spaceId].item:set({
+                    drawing = false or spaces[spaceId].item:query().label.highlight,
+                })
+            else
+                spaces[spaceId].item:set({
+                    label = { string = icon_strip, drawing = shouldDraw, padding_right = 10},
+                    drawing = true
+                })
+            end
         else
             print("Warning: Space ID '" .. spaceId .. "' not found when updating icons.")
         end
@@ -60,7 +67,7 @@ local function addWorkspaceItem(workspaceName, monitorId, isSelected)
                 highlight_color = colors.yellow,
             },
             label = {
-                padding_right = 12,
+                padding_right = 2,
                 color = colors.grey,
                 highlight_color = colors.yellow,
                 font = "sketchybar-app-font:Regular:12.0",
@@ -76,7 +83,7 @@ local function addWorkspaceItem(workspaceName, monitorId, isSelected)
                 corner_radius = 9,
             },
             click_script = "aerospace workspace " .. workspaceName,
-            display = monitorId,
+            display = all --monitorId,
         })
 
         -- Create bracket for double border effect
@@ -123,6 +130,15 @@ local function drawSpaces()
                     for workspaceName in workspacesOutput:gmatch("[^\r\n]+") do
                         local isSelected = workspaceName == focusedWorkspace
                         addWorkspaceItem(workspaceName, monitorId, isSelected)
+                    end
+
+                    for k, v in pairs(spaces) do
+                        local workspace = k:match("workspace_([^\r\n]+)")
+                        local b = workspacesOutput:match(workspace)
+            
+                        if b == nil then
+                            print("need remove workspace: " .. workspace)
+                        end
                     end
                 end)
             end
