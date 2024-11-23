@@ -76,16 +76,10 @@ volume_percent:subscribe("volume_change", function(env)
 	local volume = tonumber(env.INFO)
 	sbar.exec("SwitchAudioSource -t output -c", function(result)
 		Current_output_device = result:sub(1, -2)
-		if Current_output_device == "AirPods Max" then
-			icon = "􀺹"
-		elseif Current_output_device == "AirPods von Longdong Silver" or Current_output_device == "AirPods von Anna" then
-			icon = "􀟥"
-		elseif Current_output_device == "Arctis Nova Pro Wireless" then
-			icon = "􀑈"
-		elseif Current_output_device == "Ear (2)" then
-			icon = "􀪷"
-		elseif Current_output_device == "iD4" then
-			icon = "􀝎"
+		if Current_output_device == "HyperX Virtual Surround Sound" then
+			icon = "󰋋"
+		elseif Current_output_device == "MacBook Pro Speakers" then
+			icon = "󰌢"
 		else
 			if volume > 60 then
 				icon = icons.volume._100
@@ -159,7 +153,7 @@ local function volume_toggle_details(env)
 end
 
 local function volume_scroll(env)
-	local delta = env.SCROLL_DELTA
+	local delta = (env.INFO.delta > 0 and 5 or -5)
 	sbar.exec('osascript -e "set volume output volume (output volume of (get volume settings) + ' .. delta .. ')"')
 end
 

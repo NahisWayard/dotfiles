@@ -2,12 +2,12 @@ local settings = require("settings")
 
 local icons = {
     sf_symbols = {
-        plus = "􀅼",
-        loading = "􀖇",
-        apple = "􀣺", --󱚞
-        gear = "􀍟",
+        plus = "󰐕",
+        loading = "",
+        apple = "󰀵",
+        gear = "",
         cpu = "󰒆",
-        clipboard = "􀉄",
+        clipboard = "󰅇",
 
         space_indicator = {
             on = "󰄯",
@@ -15,23 +15,23 @@ local icons = {
         },
 
         switch = {
-            on = "􁏮",
-            off = "􁏯",
+            on = "",
+            off = "",
         },
         volume = {
-            _100 = "􀊩",
-            _66 = "􀊧",
-            _33 = "􀊥",
-            _10 = "􀊡",
-            _0 = "􀊣",
+            _100 = "",
+            _66 = "",
+            _33 = "",
+            _10 = "",
+            _0 = "",
         },
         battery = {
-            _100 = "􀛨",
-            _75 = "􀺸",
-            _50 = "􀺶",
-            _25 = "􀛩",
-            _0 = "􀛪",
-            charging = "􀢋"
+            _100 = "󰁹",
+            _75 = "󰁿",
+            _50 = "󰁾",
+            _25 = "󰁻",
+            _0 = "󰁺",
+            charging = "󰢞"
         },
         wifi = {
             upload = "􀄨",
@@ -43,9 +43,9 @@ local icons = {
             test = "",
         },
         media = {
-            back = "􀊊",
-            forward = "􀊌",
-            play_pause = "􀊈",
+            back = "󰒮",
+            forward = "󰒭",
+            play_pause = "󰐎",
         },
         ramicons = {
             swap = "󰁄",
@@ -54,8 +54,8 @@ local icons = {
     },
 }
 
-if not (settings.icons == "NerdFont") then
-    return icons.sf_symbols
+if not (settings.icons == "NerdFont-force") then
+    return icons.sf_symbols --always
 else
     return icons.nerdfont
 end

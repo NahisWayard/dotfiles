@@ -123,9 +123,10 @@ local function drawSpaces()
         -- Cache the focused workspace to avoid multiple `LIST_CURRENT` queries
         sbar.exec(LIST_CURRENT, function(focusedWorkspaceOutput)
             local focusedWorkspace = focusedWorkspaceOutput:match("[^\r\n]+")
+            local workspaces = 
 
             -- Iterate through monitors and workspaces
-            for monitorId in monitorsOutput:gmatch("[^\r\n]+") do
+--            for monitorId in monitorsOutput:gmatch("[^\r\n]+") do
                 sbar.exec(LIST_WORKSPACES:format(monitorId), function(workspacesOutput)
                     for workspaceName in workspacesOutput:gmatch("[^\r\n]+") do
                         local isSelected = workspaceName == focusedWorkspace
@@ -137,11 +138,12 @@ local function drawSpaces()
                         local b = workspacesOutput:match(workspace)
             
                         if b == nil then
-                            print("need remove workspace: " .. workspace)
+                            sbar.remove(k)
+--                            print("need remove workspace: " .. workspace)
                         end
                     end
                 end)
-            end
+--            end
         end)
     end)
 end

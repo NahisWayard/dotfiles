@@ -87,7 +87,7 @@ end
 
 media_cover:subscribe("media_change", function(env)
   if whitelist[env.INFO.app] then
-    local drawing = (env.INFO.state == "playing")
+    local drawing = true--(env.INFO.state == "playing")
     media_artist:set({ drawing = drawing, label = env.INFO.artist, })
     media_title:set({ drawing = drawing, label = env.INFO.title, })
     media_cover:set({ drawing = drawing })
