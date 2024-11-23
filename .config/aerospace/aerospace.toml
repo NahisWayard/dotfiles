@@ -67,15 +67,15 @@ gaps.outer.right = 12
 
 [mode.main.binding]
 # i3 wraps focus by default
-alt-left =         'focus --boundaries-action wrap-around-the-workspace left'
-alt-down =         'focus --boundaries-action wrap-around-the-workspace down'
-alt-up =         'focus --boundaries-action wrap-around-the-workspace up'
-alt-right = 'focus --boundaries-action wrap-around-the-workspace right'
+ctrl-alt-left =         'focus --boundaries-action wrap-around-the-workspace left'
+ctrl-alt-down =         'focus --boundaries-action wrap-around-the-workspace down'
+ctrl-alt-up =         'focus --boundaries-action wrap-around-the-workspace up'
+ctrl-alt-right = 'focus --boundaries-action wrap-around-the-workspace right'
 
-alt-shift-left = 'move left'
-alt-shift-down = 'move down'
-alt-shift-up = 'move up'
-alt-shift-right = 'move right'
+ctrl-alt-cmd-left = 'move left'
+ctrl-alt-cmd-down = 'move down'
+ctrl-alt-cmd-up = 'move up'
+ctrl-alt-cmd-right = 'move right'
 
 
 # Consider using 'join-with' command as a 'split' replacement if you want to enable normalizations
@@ -110,7 +110,7 @@ cmd-6 = 'workspace 6'
 cmd-7 = 'workspace 7'
 cmd-8 = 'workspace 8'
 cmd-9 = 'workspace 9-slack'
-cmd-0 = 'workspace 󰓇'
+cmd-0 = 'workspace 󰝚'
 
 cmd-keypad1 = 'workspace 1-dev'
 cmd-keypad2 = 'workspace 2-dev'
@@ -121,7 +121,7 @@ cmd-keypad6 = 'workspace 6'
 cmd-keypad7 = 'workspace 7'
 cmd-keypad8 = 'workspace 8'
 cmd-keypad9 = 'workspace 9-slack'
-cmd-keypad0 = 'workspace 󰓇'
+cmd-keypad0 = 'workspace 󰝚'
 
 cmd-shift-1 = 'move-node-to-workspace 1-dev'
 cmd-shift-2 = 'move-node-to-workspace 2-dev'
@@ -132,7 +132,7 @@ cmd-shift-6 = 'move-node-to-workspace 6'
 cmd-shift-7 = 'move-node-to-workspace 7'
 cmd-shift-8 = 'move-node-to-workspace 8'
 cmd-shift-9 = 'move-node-to-workspace 9-slack'
-cmd-shift-0 = 'move-node-to-workspace 󰓇'
+cmd-shift-0 = 'move-node-to-workspace 󰝚'
 
 alt-shift-c = 'reload-config'
 
@@ -168,8 +168,12 @@ if.app-id = 'org.mozilla.firefox'
 run = ['move-node-to-workspace 5-perso']
 
 [[on-window-detected]]
+if.app-id = 'com.apple.mail'
+run = ['move-node-to-workspace 4-lucca']
+
+[[on-window-detected]]
 if.app-id = 'com.spotify.client'
-run = ['move-node-to-workspace 󰓇']
+run = ['move-node-to-workspace 󰝚']
 
 #[[on-window-detected]]
 #if.app-id = ''
@@ -178,6 +182,7 @@ run = ['move-node-to-workspace 󰓇']
 
 [workspace-to-monitor-force-assignment]
 9-slack  = 'Built-in*'
+'󰝚' = 'Built-in*'
 1-dev = ['VE247']
 2-dev = ['DELL S2421NX']
 3-dev = ['ASUS VS238']
