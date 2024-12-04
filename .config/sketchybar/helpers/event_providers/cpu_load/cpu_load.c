@@ -11,6 +11,9 @@ int main (int argc, char** argv) {
   alarm(0);
   struct cpu cpu;
   cpu_init(&cpu);
+  cpu.user_load = 0;
+  cpu.total_load = 0;
+  cpu.sys_load = 0;
 
   // Setup the event in sketchybar
   char event_message[512];

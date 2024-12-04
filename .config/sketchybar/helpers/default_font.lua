@@ -1,7 +1,7 @@
 return {
-	text = "MonoLisa", -- Used for text
-	numbers = "MonoLisa", -- Used for numbers
-	weather = "Hack Nerd Font",
+--	text = "MonoLisa", -- Used for text
+--	numbers = "MonoLisa", -- Used for numbers
+--	weather = "Hack Nerd Font",
 
 	-- Unified font style map
 	style_map = {

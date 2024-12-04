@@ -13,7 +13,7 @@ local apps = sbar.add("bracket", "apps", {}, {
 		padding_right = 15,
 		padding_left = 8,
 		color = colors.dirty_white,
-		font = "sketchybar-app-font:Regular:16.0",
+--		font = "sketchybar-app-font:Regular:16.0",
 		y_offset = -1,
 	},
 	label = {
@@ -86,7 +86,7 @@ local function update_windows(windows)
 			},
 			icon = {
 				string = icon,
-				font = "sketchybar-app-font:Regular:16.0",
+--				font = "sketchybar-app-font:Regular:16.0",
 				color = colors.dirty_white,
 			},
 			padding_right = 2,

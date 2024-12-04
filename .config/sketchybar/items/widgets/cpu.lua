@@ -6,38 +6,10 @@ local settings = require("settings")
 -- the cpu load data, which is fired every 2.0 seconds.
 sbar.exec("killall cpu_load >/dev/null; $CONFIG_DIR/helpers/event_providers/cpu_load/bin/cpu_load cpu_update 2.0")
 
-local cpu = sbar.add("graph", "widgets.cpu", 42, {
-	position = "right",
-	graph = { color = colors.blue },
-	background = {
-		height = 22,
-		color = { alpha = 0 },
-		border_color = { alpha = 0 },
-		drawing = true,
-	},
-	icon = {
-		string = icons.cpu,
-		font = {
-			size = 17.0,
-		},
-	},
-	label = {
-		string = "cpu ??%",
-		font = {
-			family = settings.font.numbers,
-			style = settings.font.style_map["Bold"],
-			size = 9.0,
-		},
-		align = "right",
-		padding_right = 0,
-		width = 0,
-		y_offset = 4
-	},
-	padding_right = settings.paddings + 6
-})
+local widget = require("items.widgets.default_widget")("", icons.cpu)
+local cpu = sbar.add("graph", "widgets.cpu", 42, widget)
 
 cpu:subscribe("cpu_update", function(env)
-	-- Also available: env.user_load, env.sys_load
 	local load = tonumber(env.total_load)
 	cpu:push({ load / 100. })
 
@@ -59,7 +31,7 @@ cpu:subscribe("cpu_update", function(env)
 end)
 
 cpu:subscribe("mouse.clicked", function(env)
-	sbar.exec("open -a 'Activity Monitor'")
+	sbar.exec("alacritty msg create-window --command /opt/homebrew/bin/btop")
 end)
 
 -- Background around the cpu items
