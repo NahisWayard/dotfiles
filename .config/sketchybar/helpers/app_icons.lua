@@ -90,7 +90,7 @@ return {
 	["Réglages Système"] = ":gear:",
 	["GitHub Desktop"] = ":git_hub:",
 	["Godot"] = ":godot:",
-	["GoLand"] = ":goland:",
+	["GoLand"] = "",
 	["Chromium"] = "",
 	["Google Chrome"] = "",
 	["Google Chrome Canary"] = "",
