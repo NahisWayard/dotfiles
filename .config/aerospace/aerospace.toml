@@ -3,7 +3,8 @@ accordion-padding = 30
 
 after-startup-command = [
     'exec-and-forget sketchybar',
-    'exec-and-forget borders'
+    'exec-and-forget borders',
+    'exec-and-forget open -n /Applications/Ghostty.app'
 ]
 
 exec-on-workspace-change = ['/bin/bash', '-c',
@@ -23,7 +24,7 @@ default-root-container-layout = 'tiles'
 default-root-container-orientation = 'auto'
 
 # Mouse follows focus when focused monitor changes
-# Drop it from your config, if you don't like this behavior
+# Drop it from your config, if you don't like this behavior   
 # See https://nikitabobko.github.io/AeroSpace/guide#on-focus-changed-callbacks
 # See https://nikitabobko.github.io/AeroSpace/commands#move-mouse
 # Fallback value (if you omit the key): on-focused-monitor-changed = []
@@ -175,6 +176,11 @@ run = ['move-node-to-workspace 4-lucca']
 if.app-id = 'com.spotify.client'
 run = ['move-node-to-workspace 󰝚']
 
+[[on-window-detected]]
+#if.app-id = 'com.google.Chrome'
+if.window-title-regex-substring = 'Onyx'
+run = ['move-node-to-workspace 3-dev']
+
 #[[on-window-detected]]
 #if.app-id = ''
 #run = ['move-node-to-workspace ']
@@ -186,3 +192,5 @@ run = ['move-node-to-workspace 󰝚']
 1-dev = ['VE247']
 2-dev = ['DELL S2421NX']
 3-dev = ['ASUS VS238']
+7 = ['ASUS MB16ACM']
+

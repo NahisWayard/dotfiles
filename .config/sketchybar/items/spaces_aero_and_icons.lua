@@ -158,9 +158,9 @@ space_window_observer:subscribe("aerospace_workspace_change", function(env)
 end)
 
 space_window_observer:subscribe("front_app_switched", function()
-    drawSpaces()
+    -- drawSpaces()
 end)
 
 space_window_observer:subscribe("space_windows_change", function()
-    drawSpaces()
+    -- drawSpaces()
 end)
