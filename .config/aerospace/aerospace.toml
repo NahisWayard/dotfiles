@@ -105,34 +105,34 @@ alt-shift-space = 'layout floating tiling' # 'floating toggle' in i3
 cmd-1 = 'workspace 1-dev'
 cmd-2 = 'workspace 2-dev'
 cmd-3 = 'workspace 3-dev'
-cmd-4 = 'workspace 4-lucca'
-cmd-5 = 'workspace 5-perso'
-cmd-6 = 'workspace 6'
+cmd-4 = 'workspace 4-dev'
+cmd-5 = 'workspace 5-lucca'
+cmd-6 = 'workspace 6-perso'
 cmd-7 = 'workspace 7'
 cmd-8 = 'workspace 8'
-cmd-9 = 'workspace 9-slack'
+cmd-9 = 'workspace 9'
 cmd-0 = 'workspace 󰝚'
 
 cmd-keypad1 = 'workspace 1-dev'
 cmd-keypad2 = 'workspace 2-dev'
 cmd-keypad3 = 'workspace 3-dev'
-cmd-keypad4 = 'workspace 4-lucca'
-cmd-keypad5 = 'workspace 5-perso'
-cmd-keypad6 = 'workspace 6'
+cmd-keypad4 = 'workspace 4-dev'
+cmd-keypad5 = 'workspace 5-lucca'
+cmd-keypad6 = 'workspace 6-perso'
 cmd-keypad7 = 'workspace 7'
 cmd-keypad8 = 'workspace 8'
-cmd-keypad9 = 'workspace 9-slack'
+cmd-keypad9 = 'workspace 9'
 cmd-keypad0 = 'workspace 󰝚'
 
 cmd-shift-1 = 'move-node-to-workspace 1-dev'
 cmd-shift-2 = 'move-node-to-workspace 2-dev'
 cmd-shift-3 = 'move-node-to-workspace 3-dev'
-cmd-shift-4 = 'move-node-to-workspace 4-lucca'
-cmd-shift-5 = 'move-node-to-workspace 5-perso'
-cmd-shift-6 = 'move-node-to-workspace 6'
+cmd-shift-4 = 'move-node-to-workspace 4-dev'
+cmd-shift-5 = 'move-node-to-workspace 5-lucca'
+cmd-shift-6 = 'move-node-to-workspace 6-perso'
 cmd-shift-7 = 'move-node-to-workspace 7'
 cmd-shift-8 = 'move-node-to-workspace 8'
-cmd-shift-9 = 'move-node-to-workspace 9-slack'
+cmd-shift-9 = 'move-node-to-workspace 9'
 cmd-shift-0 = 'move-node-to-workspace 󰝚'
 
 alt-shift-c = 'reload-config'
@@ -155,10 +155,9 @@ shift-right = 'resize width +100'
 enter = 'mode main'
 esc = 'mode main'
 
-
 [[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
-run = ['move-node-to-workspace 9-slack']
+run = ['move-node-to-workspace 9']
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
@@ -166,7 +165,7 @@ run = ['move-node-to-workspace 2-dev']
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.firefox'
-run = ['move-node-to-workspace 5-perso']
+run = ['move-node-to-workspace 6-perso']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
@@ -187,10 +186,10 @@ run = ['move-node-to-workspace 3-dev']
 
 
 [workspace-to-monitor-force-assignment]
-9-slack  = 'Built-in*'
+9 = 'Built-in*'
 '󰝚' = 'Built-in*'
 1-dev = ['VE247']
 2-dev = ['DELL S2421NX']
 3-dev = ['ASUS VS238']
-7 = ['ASUS MB16ACM']
+4-dev = ['ASUS MB16ACM']
 

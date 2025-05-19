@@ -75,7 +75,7 @@ return {
 	["FaceTime 通话"] = ":face_time:",
 	["Figma"] = ":figma:",
 	["Final Cut Pro"] = ":final_cut_pro:",
-	["Finder"] = ":finder:",
+	["Finder"] = "󰉋",
 	["访达"] = ":finder:",
 	["Firefox"] = "󰈹",
 	["Firefox Developer Edition"] = ":firefox_developer_edition:",
