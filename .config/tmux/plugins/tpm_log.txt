@@ -1,321 +1,672 @@
-[2025-04-24 17:18:26.692]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:18:26.712]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:18:27.231]	Installing "tmux-kubectx"
-[2025-04-24 17:18:28.111]	  "tmux-kubectx" download success
-[2025-04-24 17:18:28.129]	Done.
+[2025-04-24 18:16:24.205]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-logging tony-sol/tmux-kubectx b0o/tmux-autoreload
+[2025-04-24 18:16:24.217]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:16:24.572]	Installing "tmux-logging"
+[2025-04-24 18:16:24.585]	Already installed "tmux-autoreload"
+[2025-04-24 18:16:24.597]	Already installed "tmux-cpu"
+[2025-04-24 18:16:24.610]	Already installed "tmux-continuum"
+[2025-04-24 18:16:24.621]	Already installed "tmux-resurrect"
+[2025-04-24 18:16:24.633]	Already installed "tmux-kubectx"
+[2025-04-24 18:16:24.972]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-logging tony-sol/tmux-kubectx b0o/tmux-autoreload
+[2025-04-24 18:16:24.985]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:16:25.252]	Already installed "tmux-resurrect"
+[2025-04-24 18:16:25.264]	Already installed "tmux-continuum"
+[2025-04-24 18:16:25.276]	Already installed "tmux-kubectx"
+[2025-04-24 18:16:25.289]	Already installed "tmux-logging"
+[2025-04-24 18:16:25.302]	Already installed "tmux-cpu"
+[2025-04-24 18:16:25.314]	Already installed "tmux-autoreload"
+[2025-04-24 18:16:25.327]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:16:25.392]	  "tmux-logging" download success
+[2025-04-24 18:16:25.405]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:16:25.577]	Updating all plugins!
+[2025-04-24 18:16:25.579]	Updating all plugins!
+[2025-04-24 18:16:25.590]	
+[2025-04-24 18:16:25.594]	
+[2025-04-24 18:16:26.327]	  "tmux-resurrect" update success
+[2025-04-24 18:16:26.329]	  "tmux-cpu" update success
+[2025-04-24 18:16:26.356]	    | Already up to date.
+[2025-04-24 18:16:26.357]	    | Already up to date.
+[2025-04-24 18:16:26.380]	  "tmux-cpu" update success
+[2025-04-24 18:16:26.407]	    | Already up to date.
+[2025-04-24 18:16:26.409]	  "tmux-resurrect" update success
+[2025-04-24 18:16:26.433]	    | Already up to date.
+[2025-04-24 18:16:26.458]	  "tmux-logging" update success
+[2025-04-24 18:16:26.480]	    | Already up to date.
+[2025-04-24 18:16:26.488]	  "tmux-continuum" update success
+[2025-04-24 18:16:26.508]	    | Already up to date.
+[2025-04-24 18:16:26.525]	  "tmux-kubectx" update success
+[2025-04-24 18:16:26.526]	  "tmux-kubectx" update success
+[2025-04-24 18:16:26.545]	    | Already up to date.
+[2025-04-24 18:16:26.547]	    | Already up to date.
+[2025-04-24 18:16:26.560]	  "tmux-autoreload" update success
+[2025-04-24 18:16:26.567]	  "tmux-continuum" update success
+[2025-04-24 18:16:26.574]	    | Already up to date.
+[2025-04-24 18:16:26.581]	    | Already up to date.
+[2025-04-24 18:16:26.591]	  "tmux-logging" update success
+[2025-04-24 18:16:26.602]	  "tmux-autoreload" update success
+[2025-04-24 18:16:26.604]	    | Already up to date.
+[2025-04-24 18:16:26.615]	    | Already up to date.
+[2025-04-24 18:16:26.617]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:16:26.629]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:16:26.737]	Done.
 
-[2025-04-24 17:19:50.920]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:19:50.936]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:19:51.236]	Already installed "tmux-kubectx"
-[2025-04-24 17:19:51.255]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:19:51.618]	Updating all plugins!
-[2025-04-24 17:19:51.639]	
-[2025-04-24 17:19:52.469]	  "tmux-kubectx" update success
-[2025-04-24 17:19:52.487]	    | Already up to date.
-[2025-04-24 17:19:52.503]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:19:52.962]	Done.
+[2025-04-24 18:16:26.750]	Done.
 
-[2025-04-24 17:20:07.443]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:20:07.463]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:20:07.758]	Already installed "tmux-kubectx"
-[2025-04-24 17:20:07.779]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:20:07.997]	Updating all plugins!
-[2025-04-24 17:20:08.015]	
-[2025-04-24 17:20:08.799]	  "tmux-kubectx" update success
-[2025-04-24 17:20:08.813]	    | Already up to date.
-[2025-04-24 17:20:08.826]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:20:08.931]	Done.
+[2025-04-24 18:24:34.554]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:24:34.570]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:24:35.034]	Already installed "tmux-cpu"
+[2025-04-24 18:24:35.050]	Already installed "tmux-kubectx"
+[2025-04-24 18:24:35.067]	Already installed "tmux-resurrect"
+[2025-04-24 18:24:35.084]	Already installed "tmux-continuum"
+[2025-04-24 18:24:35.100]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:24:35.296]	Updating all plugins!
+[2025-04-24 18:24:35.309]	
+[2025-04-24 18:24:35.964]	  "tmux-cpu" update success
+[2025-04-24 18:24:35.977]	    | Already up to date.
+[2025-04-24 18:24:35.989]	  "tmux-resurrect" update success
+[2025-04-24 18:24:36.000]	  "tmux-continuum" update success
+[2025-04-24 18:24:36.010]	    | Already up to date.
+[2025-04-24 18:24:36.022]	    | Already up to date.
+[2025-04-24 18:24:36.034]	  "tmux-kubectx" update success
+[2025-04-24 18:24:36.047]	    | Already up to date.
+[2025-04-24 18:24:36.059]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:24:36.131]	Removing "tmux-autoreload"
+[2025-04-24 18:24:36.144]	  "tmux-autoreload" clean success
+[2025-04-24 18:24:36.158]	Removing "tmux-logging"
+[2025-04-24 18:24:36.171]	  "tmux-logging" clean success
+[2025-04-24 18:24:36.182]	Done.
 
-[2025-04-24 17:20:30.700]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:20:30.718]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:20:31.019]	Already installed "tmux-kubectx"
-[2025-04-24 17:20:31.037]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:20:31.269]	Updating all plugins!
-[2025-04-24 17:20:31.290]	
-[2025-04-24 17:20:32.054]	  "tmux-kubectx" update success
-[2025-04-24 17:20:32.069]	    | Already up to date.
-[2025-04-24 17:20:32.084]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:20:32.199]	Done.
+[2025-04-24 18:25:50.218]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:25:50.236]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:25:50.538]	Already installed "tmux-resurrect"
+[2025-04-24 18:25:50.552]	Already installed "tmux-cpu"
+[2025-04-24 18:25:50.565]	Already installed "tmux-kubectx"
+[2025-04-24 18:25:50.578]	Already installed "tmux-continuum"
+[2025-04-24 18:25:50.593]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:25:50.765]	Updating all plugins!
+[2025-04-24 18:25:50.778]	
+[2025-04-24 18:25:51.472]	  "tmux-resurrect" update success
+[2025-04-24 18:25:51.485]	  "tmux-kubectx" update success
+[2025-04-24 18:25:51.497]	    | Already up to date.
+[2025-04-24 18:25:51.510]	    | Already up to date.
+[2025-04-24 18:25:51.522]	  "tmux-continuum" update success
+[2025-04-24 18:25:51.533]	    | Already up to date.
+[2025-04-24 18:25:51.545]	  "tmux-cpu" update success
+[2025-04-24 18:25:51.555]	    | Already up to date.
+[2025-04-24 18:25:51.567]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:25:51.651]	Done.
 
-[2025-04-24 17:21:08.914]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:21:08.931]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:21:09.249]	Already installed "tmux-kubectx"
-[2025-04-24 17:21:09.274]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:21:09.551]	Updating all plugins!
-[2025-04-24 17:21:09.570]	
-[2025-04-24 17:21:10.438]	  "tmux-kubectx" update success
-[2025-04-24 17:21:10.456]	    | Already up to date.
-[2025-04-24 17:21:10.472]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:21:10.622]	Done.
+[2025-04-24 18:26:39.865]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:26:39.882]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:26:40.192]	Already installed "tmux-cpu"
+[2025-04-24 18:26:40.207]	Already installed "tmux-resurrect"
+[2025-04-24 18:26:40.219]	Already installed "tmux-kubectx"
+[2025-04-24 18:26:40.231]	Already installed "tmux-continuum"
+[2025-04-24 18:26:40.243]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:26:40.466]	Updating all plugins!
+[2025-04-24 18:26:40.484]	
+[2025-04-24 18:26:41.280]	  "tmux-kubectx" update success
+[2025-04-24 18:26:41.306]	    | Already up to date.
+[2025-04-24 18:26:41.336]	  "tmux-resurrect" update success
+[2025-04-24 18:26:41.362]	    | Already up to date.
+[2025-04-24 18:26:41.399]	  "tmux-continuum" update success
+[2025-04-24 18:26:41.421]	  "tmux-cpu" update success
+[2025-04-24 18:26:41.445]	    | Already up to date.
+[2025-04-24 18:26:41.473]	    | Already up to date.
+[2025-04-24 18:26:41.494]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:26:41.597]	Done.
 
-[2025-04-24 17:21:38.333]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:21:38.349]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:21:38.605]	Already installed "tmux-kubectx"
-[2025-04-24 17:21:38.623]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:21:38.816]	Updating all plugins!
-[2025-04-24 17:21:38.834]	
-[2025-04-24 17:21:39.661]	  "tmux-kubectx" update success
-[2025-04-24 17:21:39.676]	    | Already up to date.
-[2025-04-24 17:21:39.693]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:21:39.808]	Done.
+[2025-04-24 18:27:36.254]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:27:36.272]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:27:36.573]	Already installed "tmux-cpu"
+[2025-04-24 18:27:36.587]	Already installed "tmux-resurrect"
+[2025-04-24 18:27:36.601]	Already installed "tmux-kubectx"
+[2025-04-24 18:27:36.616]	Already installed "tmux-continuum"
+[2025-04-24 18:27:36.635]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:27:36.806]	Updating all plugins!
+[2025-04-24 18:27:36.819]	
+[2025-04-24 18:27:37.523]	  "tmux-cpu" update success
+[2025-04-24 18:27:37.539]	    | Already up to date.
+[2025-04-24 18:27:37.552]	  "tmux-continuum" update success
+[2025-04-24 18:27:37.565]	    | Already up to date.
+[2025-04-24 18:27:37.578]	  "tmux-kubectx" update success
+[2025-04-24 18:27:37.591]	    | Already up to date.
+[2025-04-24 18:27:37.620]	  "tmux-resurrect" update success
+[2025-04-24 18:27:37.631]	    | Already up to date.
+[2025-04-24 18:27:37.643]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:27:37.728]	Done.
 
-[2025-04-24 17:22:01.439]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:22:01.457]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:22:01.765]	Already installed "tmux-kubectx"
-[2025-04-24 17:22:01.788]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:22:01.974]	Updating all plugins!
-[2025-04-24 17:22:01.987]	
-[2025-04-24 17:22:02.736]	  "tmux-kubectx" update success
-[2025-04-24 17:22:02.753]	    | Already up to date.
-[2025-04-24 17:22:02.768]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:22:02.885]	Done.
+[2025-04-24 18:28:15.092]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:28:15.110]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:28:15.416]	Already installed "tmux-cpu"
+[2025-04-24 18:28:15.431]	Already installed "tmux-resurrect"
+[2025-04-24 18:28:15.447]	Already installed "tmux-kubectx"
+[2025-04-24 18:28:15.460]	Already installed "tmux-continuum"
+[2025-04-24 18:28:15.479]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:28:15.660]	Updating all plugins!
+[2025-04-24 18:28:15.673]	
+[2025-04-24 18:28:16.345]	  "tmux-resurrect" update success
+[2025-04-24 18:28:16.359]	    | Already up to date.
+[2025-04-24 18:28:16.371]	  "tmux-continuum" update success
+[2025-04-24 18:28:16.384]	  "tmux-cpu" update success
+[2025-04-24 18:28:16.396]	    | Already up to date.
+[2025-04-24 18:28:16.407]	    | Already up to date.
+[2025-04-24 18:28:16.417]	  "tmux-kubectx" update success
+[2025-04-24 18:28:16.428]	    | Already up to date.
+[2025-04-24 18:28:16.441]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:28:16.530]	Done.
 
-[2025-04-24 17:42:31.740]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:42:31.756]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:42:32.036]	Already installed "tmux-kubectx"
-[2025-04-24 17:42:32.052]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:42:32.220]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:42:32.237]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:42:32.346]	Updating all plugins!
-[2025-04-24 17:42:32.360]	
-[2025-04-24 17:42:32.465]	Already installed "tmux-kubectx"
-[2025-04-24 17:42:32.479]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:42:32.546]	Updating all plugins!
-[2025-04-24 17:42:32.560]	
-[2025-04-24 17:42:32.952]	  "tmux-kubectx" update success
-[2025-04-24 17:42:32.964]	    | Already up to date.
-[2025-04-24 17:42:32.978]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:42:33.067]	Done.
+[2025-04-24 18:28:45.651]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:28:45.664]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:28:45.919]	Already installed "tmux-cpu"
+[2025-04-24 18:28:45.933]	Already installed "tmux-resurrect"
+[2025-04-24 18:28:45.946]	Already installed "tmux-continuum"
+[2025-04-24 18:28:45.958]	Already installed "tmux-kubectx"
+[2025-04-24 18:28:45.971]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:28:46.178]	Updating all plugins!
+[2025-04-24 18:28:46.200]	
+[2025-04-24 18:28:46.855]	  "tmux-cpu" update success
+[2025-04-24 18:28:46.868]	    | Already up to date.
+[2025-04-24 18:28:46.882]	  "tmux-continuum" update success
+[2025-04-24 18:28:46.895]	    | Already up to date.
+[2025-04-24 18:28:46.916]	  "tmux-kubectx" update success
+[2025-04-24 18:28:46.927]	  "tmux-resurrect" update success
+[2025-04-24 18:28:46.941]	    | Already up to date.
+[2025-04-24 18:28:46.955]	    | Already up to date.
+[2025-04-24 18:28:46.966]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:28:47.054]	Done.
 
-[2025-04-24 17:42:33.144]	  "tmux-kubectx" update success
-[2025-04-24 17:42:33.156]	    | Already up to date.
-[2025-04-24 17:42:33.170]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:42:33.262]	Removing "tmux-kubectx"
-[2025-04-24 17:42:33.273]	  "tmux-kubectx" clean success
-[2025-04-24 17:42:33.286]	Done.
+[2025-04-24 18:31:07.452]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:31:07.472]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:31:07.714]	Already installed "tmux-cpu"
+[2025-04-24 18:31:07.726]	Already installed "tmux-resurrect"
+[2025-04-24 18:31:07.738]	Already installed "tmux-kubectx"
+[2025-04-24 18:31:07.750]	Already installed "tmux-continuum"
+[2025-04-24 18:31:07.762]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:31:07.978]	Updating all plugins!
+[2025-04-24 18:31:07.995]	
+[2025-04-24 18:31:08.828]	  "tmux-resurrect" update success
+[2025-04-24 18:31:08.851]	    | Already up to date.
+[2025-04-24 18:31:08.866]	  "tmux-cpu" update success
+[2025-04-24 18:31:08.879]	    | Already up to date.
+[2025-04-24 18:31:08.892]	  "tmux-continuum" update success
+[2025-04-24 18:31:08.903]	  "tmux-kubectx" update success
+[2025-04-24 18:31:08.915]	    | Already up to date.
+[2025-04-24 18:31:08.926]	    | Already up to date.
+[2025-04-24 18:31:08.939]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:31:09.028]	Done.
 
-[2025-04-24 17:43:27.039]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:43:27.053]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:43:27.275]	Installing "tmux-kubectx"
-[2025-04-24 17:43:27.598]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:43:27.612]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:43:27.896]	Already installed "tmux-kubectx"
-[2025-04-24 17:43:27.912]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:43:28.056]	  "tmux-kubectx" download success
-[2025-04-24 17:43:28.075]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:43:28.099]	Updating all plugins!
-[2025-04-24 17:43:28.118]	
-[2025-04-24 17:43:28.152]	Updating all plugins!
-[2025-04-24 17:43:28.166]	
-[2025-04-24 17:43:28.776]	  "tmux-kubectx" update success
-[2025-04-24 17:43:28.790]	    | Already up to date.
-[2025-04-24 17:43:28.793]	  "tmux-kubectx" update success
-[2025-04-24 17:43:28.803]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:43:28.805]	    | Already up to date.
-[2025-04-24 17:43:28.819]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:43:28.892]	Done.
+[2025-04-24 18:31:18.031]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:31:18.051]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:31:18.363]	Already installed "tmux-cpu"
+[2025-04-24 18:31:18.385]	Already installed "tmux-resurrect"
+[2025-04-24 18:31:18.406]	Already installed "tmux-kubectx"
+[2025-04-24 18:31:18.421]	Already installed "tmux-continuum"
+[2025-04-24 18:31:18.436]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:31:18.629]	Updating all plugins!
+[2025-04-24 18:31:18.644]	
+[2025-04-24 18:31:19.303]	  "tmux-cpu" update success
+[2025-04-24 18:31:19.322]	    | Already up to date.
+[2025-04-24 18:31:19.346]	  "tmux-resurrect" update success
+[2025-04-24 18:31:19.366]	    | Already up to date.
+[2025-04-24 18:31:19.391]	  "tmux-kubectx" update success
+[2025-04-24 18:31:19.413]	    | Already up to date.
+[2025-04-24 18:31:19.436]	  "tmux-continuum" update success
+[2025-04-24 18:31:19.458]	    | Already up to date.
+[2025-04-24 18:31:19.480]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:31:19.649]	Done.
 
-[2025-04-24 17:43:28.906]	Done.
+[2025-04-24 18:53:22.047]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:53:22.066]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:53:22.383]	Already installed "tmux-resurrect"
+[2025-04-24 18:53:22.398]	Already installed "tmux-cpu"
+[2025-04-24 18:53:22.412]	Already installed "tmux-kubectx"
+[2025-04-24 18:53:22.427]	Already installed "tmux-continuum"
+[2025-04-24 18:53:22.443]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:53:22.657]	Updating all plugins!
+[2025-04-24 18:53:22.670]	
+[2025-04-24 18:53:23.644]	  "tmux-kubectx" update success
+[2025-04-24 18:53:23.667]	  "tmux-continuum" update success
+[2025-04-24 18:53:23.690]	  "tmux-cpu" update success
+[2025-04-24 18:53:23.707]	    | Already up to date.
+[2025-04-24 18:53:23.721]	    | Already up to date.
+[2025-04-24 18:53:23.734]	    | Already up to date.
+[2025-04-24 18:53:23.747]	  "tmux-resurrect" update success
+[2025-04-24 18:53:23.759]	    | Already up to date.
+[2025-04-24 18:53:23.773]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:53:23.870]	Done.
 
-[2025-04-24 17:43:39.856]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:43:39.874]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:43:40.168]	Already installed "tmux-kubectx"
-[2025-04-24 17:43:40.187]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:43:40.367]	Updating all plugins!
-[2025-04-24 17:43:40.380]	
-[2025-04-24 17:43:41.126]	  "tmux-kubectx" update success
-[2025-04-24 17:43:41.139]	    | Already up to date.
-[2025-04-24 17:43:41.154]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:43:41.251]	Done.
+[2025-04-24 18:53:45.923]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:53:45.941]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:53:46.240]	Already installed "tmux-kubectx"
+[2025-04-24 18:53:46.256]	Already installed "tmux-cpu"
+[2025-04-24 18:53:46.272]	Already installed "tmux-continuum"
+[2025-04-24 18:53:46.286]	Already installed "tmux-resurrect"
+[2025-04-24 18:53:46.304]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:53:46.484]	Updating all plugins!
+[2025-04-24 18:53:46.498]	
+[2025-04-24 18:53:47.124]	  "tmux-cpu" update success
+[2025-04-24 18:53:47.142]	    | Already up to date.
+[2025-04-24 18:53:47.181]	  "tmux-resurrect" update success
+[2025-04-24 18:53:47.196]	    | Already up to date.
+[2025-04-24 18:53:47.218]	  "tmux-kubectx" update success
+[2025-04-24 18:53:47.232]	  "tmux-continuum" update success
+[2025-04-24 18:53:47.246]	    | Already up to date.
+[2025-04-24 18:53:47.260]	    | Already up to date.
+[2025-04-24 18:53:47.274]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:53:47.404]	Done.
 
-[2025-04-24 17:44:00.955]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:44:00.973]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:44:01.266]	Already installed "tmux-kubectx"
-[2025-04-24 17:44:01.285]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:44:01.512]	Updating all plugins!
-[2025-04-24 17:44:01.529]	
-[2025-04-24 17:44:02.365]	  "tmux-kubectx" update success
-[2025-04-24 17:44:02.380]	    | Already up to date.
-[2025-04-24 17:44:02.395]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:44:02.511]	Done.
+[2025-04-24 18:53:54.254]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:53:54.273]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:53:54.581]	Already installed "tmux-cpu"
+[2025-04-24 18:53:54.596]	Already installed "tmux-resurrect"
+[2025-04-24 18:53:54.610]	Already installed "tmux-continuum"
+[2025-04-24 18:53:54.625]	Already installed "tmux-kubectx"
+[2025-04-24 18:53:54.645]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:53:54.880]	Updating all plugins!
+[2025-04-24 18:53:54.908]	
+[2025-04-24 18:53:55.596]	  "tmux-cpu" update success
+[2025-04-24 18:53:55.610]	    | Already up to date.
+[2025-04-24 18:53:55.656]	  "tmux-continuum" update success
+[2025-04-24 18:53:55.669]	    | Already up to date.
+[2025-04-24 18:53:55.682]	  "tmux-kubectx" update success
+[2025-04-24 18:53:55.696]	    | Already up to date.
+[2025-04-24 18:53:55.726]	  "tmux-resurrect" update success
+[2025-04-24 18:53:55.739]	    | Already up to date.
+[2025-04-24 18:53:55.751]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:53:55.839]	Done.
 
-[2025-04-24 17:47:23.847]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:47:23.866]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:47:24.177]	Already installed "tmux-kubectx"
-[2025-04-24 17:47:24.198]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:47:24.427]	Updating all plugins!
-[2025-04-24 17:47:24.444]	
-[2025-04-24 17:47:25.268]	  "tmux-kubectx" update success
-[2025-04-24 17:47:25.283]	    | Already up to date.
-[2025-04-24 17:47:25.299]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:47:25.411]	Done.
+[2025-04-24 18:54:49.680]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:54:49.729]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:54:50.012]	Already installed "tmux-cpu"
+[2025-04-24 18:54:50.026]	Already installed "tmux-resurrect"
+[2025-04-24 18:54:50.040]	Already installed "tmux-continuum"
+[2025-04-24 18:54:50.055]	Already installed "tmux-kubectx"
+[2025-04-24 18:54:50.070]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:54:50.247]	Updating all plugins!
+[2025-04-24 18:54:50.262]	
+[2025-04-24 18:54:50.962]	  "tmux-cpu" update success
+[2025-04-24 18:54:50.977]	    | Already up to date.
+[2025-04-24 18:54:50.999]	  "tmux-resurrect" update success
+[2025-04-24 18:54:51.013]	    | Already up to date.
+[2025-04-24 18:54:51.026]	  "tmux-continuum" update success
+[2025-04-24 18:54:51.040]	    | Already up to date.
+[2025-04-24 18:54:51.053]	  "tmux-kubectx" update success
+[2025-04-24 18:54:51.064]	    | Already up to date.
+[2025-04-24 18:54:51.077]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:54:51.167]	Done.
 
-[2025-04-24 17:48:42.628]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:48:42.645]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:48:42.973]	Already installed "tmux-kubectx"
-[2025-04-24 17:48:42.993]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:48:43.221]	Updating all plugins!
-[2025-04-24 17:48:43.235]	
-[2025-04-24 17:48:44.163]	  "tmux-kubectx" update success
-[2025-04-24 17:48:44.179]	    | Already up to date.
-[2025-04-24 17:48:44.197]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:48:44.323]	Done.
+[2025-04-24 18:55:11.509]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:55:11.528]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:55:11.846]	Already installed "tmux-cpu"
+[2025-04-24 18:55:11.861]	Already installed "tmux-resurrect"
+[2025-04-24 18:55:11.874]	Already installed "tmux-continuum"
+[2025-04-24 18:55:11.889]	Already installed "tmux-kubectx"
+[2025-04-24 18:55:11.904]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:55:12.089]	Updating all plugins!
+[2025-04-24 18:55:12.104]	
+[2025-04-24 18:55:12.784]	  "tmux-resurrect" update success
+[2025-04-24 18:55:12.798]	    | Already up to date.
+[2025-04-24 18:55:12.812]	  "tmux-cpu" update success
+[2025-04-24 18:55:12.826]	    | Already up to date.
+[2025-04-24 18:55:12.853]	  "tmux-continuum" update success
+[2025-04-24 18:55:12.865]	    | Already up to date.
+[2025-04-24 18:55:12.878]	  "tmux-kubectx" update success
+[2025-04-24 18:55:12.902]	    | Already up to date.
+[2025-04-24 18:55:12.917]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:55:13.009]	Done.
 
-[2025-04-24 17:49:02.092]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:49:02.108]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:49:02.381]	Already installed "tmux-kubectx"
-[2025-04-24 17:49:02.400]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:49:02.622]	Updating all plugins!
-[2025-04-24 17:49:02.647]	
-[2025-04-24 17:49:03.460]	  "tmux-kubectx" update success
-[2025-04-24 17:49:03.478]	    | Already up to date.
-[2025-04-24 17:49:03.496]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:49:03.620]	Done.
+[2025-04-24 18:55:22.218]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:55:22.237]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:55:22.547]	Already installed "tmux-cpu"
+[2025-04-24 18:55:22.561]	Already installed "tmux-resurrect"
+[2025-04-24 18:55:22.575]	Already installed "tmux-kubectx"
+[2025-04-24 18:55:22.589]	Already installed "tmux-continuum"
+[2025-04-24 18:55:22.604]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:55:22.815]	Updating all plugins!
+[2025-04-24 18:55:22.834]	
+[2025-04-24 18:55:23.509]	  "tmux-cpu" update success
+[2025-04-24 18:55:23.525]	    | Already up to date.
+[2025-04-24 18:55:23.545]	  "tmux-continuum" update success
+[2025-04-24 18:55:23.560]	    | Already up to date.
+[2025-04-24 18:55:23.574]	  "tmux-kubectx" update success
+[2025-04-24 18:55:23.588]	    | Already up to date.
+[2025-04-24 18:55:23.626]	  "tmux-resurrect" update success
+[2025-04-24 18:55:23.637]	    | Already up to date.
+[2025-04-24 18:55:23.650]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:55:23.743]	Done.
 
-[2025-04-24 17:49:13.518]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:49:13.534]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:49:13.816]	Already installed "tmux-kubectx"
-[2025-04-24 17:49:13.835]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:49:14.049]	Updating all plugins!
-[2025-04-24 17:49:14.064]	
-[2025-04-24 17:49:14.833]	  "tmux-kubectx" update success
-[2025-04-24 17:49:14.852]	    | Already up to date.
-[2025-04-24 17:49:14.869]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:49:14.991]	Done.
+[2025-04-24 18:55:55.536]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:55:55.551]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:55:56.481]	unknown variable: TMUX_PLUGIN_MANAGER_PATH
+[2025-04-24 18:55:56.495]	FATAL: Tmux Plugin Manager not configured in tmux.conf
+[2025-04-24 18:55:56.509]	Aborting.
+[2025-04-24 18:55:56.523]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:55:57.414]	unknown variable: TMUX_PLUGIN_MANAGER_PATH
+[2025-04-24 18:55:57.427]	FATAL: Tmux Plugin Manager not configured in tmux.conf
+[2025-04-24 18:55:57.442]	Aborting.
+[2025-04-24 18:55:57.458]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:55:58.116]	unknown variable: TMUX_PLUGIN_MANAGER_PATH
+[2025-04-24 18:55:58.128]	FATAL: Tmux Plugin Manager not configured in tmux.conf
+[2025-04-24 18:55:58.141]	Aborting.
+[2025-04-24 18:55:58.154]	Done.
 
-[2025-04-24 17:49:30.162]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:49:30.178]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:49:30.455]	Already installed "tmux-kubectx"
-[2025-04-24 17:49:30.472]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:49:30.692]	Updating all plugins!
-[2025-04-24 17:49:30.714]	
-[2025-04-24 17:49:31.580]	  "tmux-kubectx" update success
-[2025-04-24 17:49:31.596]	    | Already up to date.
-[2025-04-24 17:49:31.614]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:49:31.740]	Done.
+[2025-04-24 18:56:16.963]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:56:16.983]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:56:17.270]	Already installed "tmux-cpu"
+[2025-04-24 18:56:17.293]	Already installed "tmux-kubectx"
+[2025-04-24 18:56:17.309]	Already installed "tmux-resurrect"
+[2025-04-24 18:56:17.326]	Already installed "tmux-continuum"
+[2025-04-24 18:56:17.344]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:56:17.539]	Updating all plugins!
+[2025-04-24 18:56:17.553]	
+[2025-04-24 18:56:18.228]	  "tmux-cpu" update success
+[2025-04-24 18:56:18.244]	    | Already up to date.
+[2025-04-24 18:56:18.259]	  "tmux-kubectx" update success
+[2025-04-24 18:56:18.273]	    | Already up to date.
+[2025-04-24 18:56:18.286]	  "tmux-continuum" update success
+[2025-04-24 18:56:18.300]	    | Already up to date.
+[2025-04-24 18:56:18.315]	  "tmux-resurrect" update success
+[2025-04-24 18:56:18.327]	    | Already up to date.
+[2025-04-24 18:56:18.341]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:56:18.428]	Done.
 
-[2025-04-24 17:49:42.392]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:49:42.408]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:49:42.682]	Already installed "tmux-kubectx"
-[2025-04-24 17:49:42.701]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:49:42.924]	Updating all plugins!
-[2025-04-24 17:49:42.946]	
-[2025-04-24 17:49:43.667]	  "tmux-kubectx" update success
-[2025-04-24 17:49:43.683]	    | Already up to date.
-[2025-04-24 17:49:43.699]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:49:43.816]	Done.
+[2025-04-24 18:57:25.204]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 18:57:25.223]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 18:57:25.507]	Already installed "tmux-cpu"
+[2025-04-24 18:57:25.522]	Already installed "tmux-resurrect"
+[2025-04-24 18:57:25.536]	Already installed "tmux-kubectx"
+[2025-04-24 18:57:25.550]	Already installed "tmux-continuum"
+[2025-04-24 18:57:25.566]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 18:57:25.781]	Updating all plugins!
+[2025-04-24 18:57:25.797]	
+[2025-04-24 18:57:26.556]	  "tmux-cpu" update success
+[2025-04-24 18:57:26.571]	    | Already up to date.
+[2025-04-24 18:57:26.588]	  "tmux-kubectx" update success
+[2025-04-24 18:57:26.603]	    | Already up to date.
+[2025-04-24 18:57:26.618]	  "tmux-continuum" update success
+[2025-04-24 18:57:26.633]	    | Already up to date.
+[2025-04-24 18:57:26.649]	  "tmux-resurrect" update success
+[2025-04-24 18:57:26.663]	    | Already up to date.
+[2025-04-24 18:57:26.681]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 18:57:26.794]	Done.
 
-[2025-04-24 17:49:51.550]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:49:51.567]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:49:51.859]	Already installed "tmux-kubectx"
-[2025-04-24 17:49:51.877]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:49:52.084]	Updating all plugins!
-[2025-04-24 17:49:52.099]	
-[2025-04-24 17:49:52.850]	  "tmux-kubectx" update success
-[2025-04-24 17:49:52.865]	    | Already up to date.
-[2025-04-24 17:49:52.881]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:49:53.010]	Done.
+[2025-04-24 19:00:01.172]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 19:00:01.193]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 19:00:01.498]	Already installed "tmux-cpu"
+[2025-04-24 19:00:01.513]	Already installed "tmux-resurrect"
+[2025-04-24 19:00:01.527]	Already installed "tmux-kubectx"
+[2025-04-24 19:00:01.542]	Already installed "tmux-continuum"
+[2025-04-24 19:00:01.556]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 19:00:01.753]	Updating all plugins!
+[2025-04-24 19:00:01.768]	
+[2025-04-24 19:00:02.581]	  "tmux-resurrect" update success
+[2025-04-24 19:00:02.607]	    | Already up to date.
+[2025-04-24 19:00:02.622]	  "tmux-cpu" update success
+[2025-04-24 19:00:02.637]	    | Already up to date.
+[2025-04-24 19:00:02.652]	  "tmux-kubectx" update success
+[2025-04-24 19:00:02.665]	    | Already up to date.
+[2025-04-24 19:00:02.679]	  "tmux-continuum" update success
+[2025-04-24 19:00:02.696]	    | Already up to date.
+[2025-04-24 19:00:02.712]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 19:00:02.819]	Done.
 
-[2025-04-24 17:51:02.770]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:02.789]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:03.111]	Already installed "tmux-kubectx"
-[2025-04-24 17:51:03.131]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:03.340]	Updating all plugins!
-[2025-04-24 17:51:03.354]	
-[2025-04-24 17:51:04.165]	  "tmux-kubectx" update success
-[2025-04-24 17:51:04.179]	    | Already up to date.
-[2025-04-24 17:51:04.195]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:04.308]	Done.
+[2025-04-24 19:00:21.835]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 19:00:21.853]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 19:00:22.154]	Already installed "tmux-cpu"
+[2025-04-24 19:00:22.169]	Already installed "tmux-resurrect"
+[2025-04-24 19:00:22.186]	Already installed "tmux-kubectx"
+[2025-04-24 19:00:22.200]	Already installed "tmux-continuum"
+[2025-04-24 19:00:22.216]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 19:00:22.407]	Updating all plugins!
+[2025-04-24 19:00:22.420]	
+[2025-04-24 19:00:23.107]	  "tmux-cpu" update success
+[2025-04-24 19:00:23.122]	    | Already up to date.
+[2025-04-24 19:00:23.137]	  "tmux-continuum" update success
+[2025-04-24 19:00:23.150]	  "tmux-resurrect" update success
+[2025-04-24 19:00:23.163]	    | Already up to date.
+[2025-04-24 19:00:23.175]	    | Already up to date.
+[2025-04-24 19:00:23.187]	  "tmux-kubectx" update success
+[2025-04-24 19:00:23.199]	    | Already up to date.
+[2025-04-24 19:00:23.212]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 19:00:23.305]	Done.
 
-[2025-04-24 17:51:10.466]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:10.529]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:10.750]	Already installed "tmux-kubectx"
-[2025-04-24 17:51:10.764]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:10.942]	Updating all plugins!
-[2025-04-24 17:51:10.958]	
-[2025-04-24 17:51:10.986]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:10.999]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:11.268]	Already installed "tmux-kubectx"
-[2025-04-24 17:51:11.283]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:11.346]	Updating all plugins!
-[2025-04-24 17:51:11.359]	
-[2025-04-24 17:51:11.924]	  "tmux-kubectx" update success
-[2025-04-24 17:51:11.938]	    | Already up to date.
-[2025-04-24 17:51:11.951]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:12.002]	  "tmux-kubectx" update success
-[2025-04-24 17:51:12.015]	    | Already up to date.
-[2025-04-24 17:51:12.028]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:12.033]	Done.
+[2025-04-24 19:01:20.902]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 19:01:20.922]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 19:01:21.233]	Already installed "tmux-cpu"
+[2025-04-24 19:01:21.248]	Already installed "tmux-resurrect"
+[2025-04-24 19:01:21.262]	Already installed "tmux-kubectx"
+[2025-04-24 19:01:21.277]	Already installed "tmux-continuum"
+[2025-04-24 19:01:21.292]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 19:01:21.491]	Updating all plugins!
+[2025-04-24 19:01:21.506]	
+[2025-04-24 19:01:22.242]	  "tmux-resurrect" update success
+[2025-04-24 19:01:22.256]	  "tmux-continuum" update success
+[2025-04-24 19:01:22.270]	    | Already up to date.
+[2025-04-24 19:01:22.284]	    | Already up to date.
+[2025-04-24 19:01:22.296]	  "tmux-kubectx" update success
+[2025-04-24 19:01:22.309]	    | Already up to date.
+[2025-04-24 19:01:22.321]	  "tmux-cpu" update success
+[2025-04-24 19:01:22.334]	    | Already up to date.
+[2025-04-24 19:01:22.347]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 19:01:22.435]	Done.
 
-[2025-04-24 17:51:12.104]	Removing "tmux-kubectx"
-[2025-04-24 17:51:12.115]	  "tmux-kubectx" clean success
-[2025-04-24 17:51:12.127]	Done.
+[2025-04-24 19:03:46.798]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 19:03:46.826]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 19:03:47.114]	Already installed "tmux-cpu"
+[2025-04-24 19:03:47.141]	Already installed "tmux-resurrect"
+[2025-04-24 19:03:47.159]	Already installed "tmux-continuum"
+[2025-04-24 19:03:47.177]	Already installed "tmux-kubectx"
+[2025-04-24 19:03:47.207]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 19:03:47.391]	Updating all plugins!
+[2025-04-24 19:03:47.410]	
+[2025-04-24 19:03:48.041]	  "tmux-cpu" update success
+[2025-04-24 19:03:48.055]	    | Already up to date.
+[2025-04-24 19:03:48.077]	  "tmux-continuum" update success
+[2025-04-24 19:03:48.091]	    | Already up to date.
+[2025-04-24 19:03:48.110]	  "tmux-resurrect" update success
+[2025-04-24 19:03:48.123]	    | Already up to date.
+[2025-04-24 19:03:48.140]	  "tmux-kubectx" update success
+[2025-04-24 19:03:48.152]	    | Already up to date.
+[2025-04-24 19:03:48.164]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 19:03:48.267]	Done.
 
-[2025-04-24 17:51:24.023]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:24.040]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:24.317]	Installing "tmux-kubectx"
-[2025-04-24 17:51:25.210]	  "tmux-kubectx" download success
-[2025-04-24 17:51:25.225]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:25.456]	Updating all plugins!
-[2025-04-24 17:51:25.473]	
-[2025-04-24 17:51:26.257]	  "tmux-kubectx" update success
-[2025-04-24 17:51:26.275]	    | Already up to date.
-[2025-04-24 17:51:26.294]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:26.400]	Done.
+[2025-04-24 19:04:41.614]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-24 19:04:41.632]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-24 19:04:41.931]	Already installed "tmux-kubectx"
+[2025-04-24 19:04:41.947]	Already installed "tmux-cpu"
+[2025-04-24 19:04:41.962]	Already installed "tmux-resurrect"
+[2025-04-24 19:04:41.977]	Already installed "tmux-continuum"
+[2025-04-24 19:04:41.990]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-24 19:04:42.223]	Updating all plugins!
+[2025-04-24 19:04:42.242]	
+[2025-04-24 19:04:42.973]	  "tmux-continuum" update success
+[2025-04-24 19:04:42.988]	    | Already up to date.
+[2025-04-24 19:04:43.010]	  "tmux-cpu" update success
+[2025-04-24 19:04:43.024]	    | Already up to date.
+[2025-04-24 19:04:43.038]	  "tmux-resurrect" update success
+[2025-04-24 19:04:43.051]	  "tmux-kubectx" update success
+[2025-04-24 19:04:43.063]	    | Already up to date.
+[2025-04-24 19:04:43.075]	    | Already up to date.
+[2025-04-24 19:04:43.088]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-24 19:04:43.181]	Done.
 
-[2025-04-24 17:51:39.505]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:39.524]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:39.826]	Already installed "tmux-kubectx"
-[2025-04-24 17:51:39.846]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:40.044]	Updating all plugins!
-[2025-04-24 17:51:40.058]	
-[2025-04-24 17:51:40.811]	  "tmux-kubectx" update success
-[2025-04-24 17:51:40.827]	    | Already up to date.
-[2025-04-24 17:51:40.843]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:40.946]	Done.
+[2025-04-25 09:41:34.726]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-25 09:41:34.755]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-25 09:41:35.005]	Already installed "tmux-cpu"
+[2025-04-25 09:41:35.018]	Already installed "tmux-continuum"
+[2025-04-25 09:41:35.030]	Already installed "tmux-resurrect"
+[2025-04-25 09:41:35.043]	Already installed "tmux-kubectx"
+[2025-04-25 09:41:35.056]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-25 09:41:35.266]	Updating all plugins!
+[2025-04-25 09:41:35.285]	
+[2025-04-25 09:41:36.010]	  "tmux-kubectx" update success
+[2025-04-25 09:41:36.023]	    | Already up to date.
+[2025-04-25 09:41:36.036]	  "tmux-resurrect" update success
+[2025-04-25 09:41:36.047]	  "tmux-cpu" update success
+[2025-04-25 09:41:36.060]	    | Already up to date.
+[2025-04-25 09:41:36.072]	    | Already up to date.
+[2025-04-25 09:41:36.085]	  "tmux-continuum" update success
+[2025-04-25 09:41:36.097]	    | Already up to date.
+[2025-04-25 09:41:36.109]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-25 09:41:36.200]	Done.
 
-[2025-04-24 17:51:58.456]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:51:58.475]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:51:58.767]	Already installed "tmux-kubectx"
-[2025-04-24 17:51:58.785]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:51:58.973]	Updating all plugins!
-[2025-04-24 17:51:58.986]	
-[2025-04-24 17:51:59.751]	  "tmux-kubectx" update success
-[2025-04-24 17:51:59.766]	    | Already up to date.
-[2025-04-24 17:51:59.780]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:51:59.883]	Done.
+[2025-04-25 10:02:09.129]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-25 10:02:09.145]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-25 10:02:09.417]	Already installed "tmux-cpu"
+[2025-04-25 10:02:09.431]	Already installed "tmux-continuum"
+[2025-04-25 10:02:09.453]	Already installed "tmux-resurrect"
+[2025-04-25 10:02:09.474]	Already installed "tmux-kubectx"
+[2025-04-25 10:02:09.497]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-25 10:02:09.689]	Updating all plugins!
+[2025-04-25 10:02:09.702]	
+[2025-04-25 10:02:10.362]	  "tmux-cpu" update success
+[2025-04-25 10:02:10.377]	    | Already up to date.
+[2025-04-25 10:02:10.390]	  "tmux-continuum" update success
+[2025-04-25 10:02:10.404]	    | Already up to date.
+[2025-04-25 10:02:10.419]	  "tmux-kubectx" update success
+[2025-04-25 10:02:10.431]	    | Already up to date.
+[2025-04-25 10:02:10.442]	  "tmux-resurrect" update success
+[2025-04-25 10:02:10.453]	    | Already up to date.
+[2025-04-25 10:02:10.465]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-25 10:02:10.559]	Done.
 
-[2025-04-24 17:52:59.096]	List of discovered tpm plugins: tony-sol/tmux-kubectx
-[2025-04-24 17:52:59.116]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:52:59.454]	Already installed "tmux-kubectx"
-[2025-04-24 17:52:59.476]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:52:59.662]	Updating all plugins!
-[2025-04-24 17:52:59.676]	
-[2025-04-24 17:53:00.484]	  "tmux-kubectx" update success
-[2025-04-24 17:53:00.499]	    | Already up to date.
-[2025-04-24 17:53:00.535]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:53:00.661]	Done.
+[2025-04-25 18:44:07.002]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-25 18:44:07.019]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-25 18:44:07.446]	Already installed "tmux-cpu"
+[2025-04-25 18:44:07.462]	Already installed "tmux-resurrect"
+[2025-04-25 18:44:07.478]	Already installed "tmux-kubectx"
+[2025-04-25 18:44:07.495]	Already installed "tmux-continuum"
+[2025-04-25 18:44:07.512]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-25 18:44:07.714]	Updating all plugins!
+[2025-04-25 18:44:07.728]	
+[2025-04-25 18:44:08.462]	  "tmux-cpu" update success
+[2025-04-25 18:44:08.475]	  "tmux-continuum" update success
+[2025-04-25 18:44:08.487]	    | Already up to date.
+[2025-04-25 18:44:08.498]	    | Already up to date.
+[2025-04-25 18:44:08.509]	  "tmux-resurrect" update success
+[2025-04-25 18:44:08.520]	    | Already up to date.
+[2025-04-25 18:44:08.532]	  "tmux-kubectx" update success
+[2025-04-25 18:44:08.543]	    | Already up to date.
+[2025-04-25 18:44:08.554]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-25 18:44:08.646]	Done.
 
-[2025-04-24 17:56:17.970]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
-[2025-04-24 17:56:17.986]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
-[2025-04-24 17:56:18.288]	Installing "tmux-cpu"
-[2025-04-24 17:56:18.305]	Installing "tmux-resurrect"
-[2025-04-24 17:56:18.323]	Installing "tmux-continuum"
-[2025-04-24 17:56:18.338]	Already installed "tmux-kubectx"
-[2025-04-24 17:56:19.185]	  "tmux-continuum" download success
-[2025-04-24 17:56:19.222]	  "tmux-cpu" download success
-[2025-04-24 17:56:19.957]	  "tmux-resurrect" download success
-[2025-04-24 17:56:19.980]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
-[2025-04-24 17:56:20.225]	Updating all plugins!
-[2025-04-24 17:56:20.242]	
-[2025-04-24 17:56:20.969]	  "tmux-cpu" update success
-[2025-04-24 17:56:20.982]	    | Already up to date.
-[2025-04-24 17:56:20.996]	  "tmux-kubectx" update success
-[2025-04-24 17:56:21.008]	  "tmux-resurrect" update success
-[2025-04-24 17:56:21.020]	    | Already up to date.
-[2025-04-24 17:56:21.033]	    | Already up to date.
-[2025-04-24 17:56:21.047]	  "tmux-continuum" update success
-[2025-04-24 17:56:21.059]	    | Already up to date.
-[2025-04-24 17:56:21.071]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2025-04-24 17:56:21.159]	Done.
+[2025-04-28 09:44:21.738]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-04-28 09:44:21.757]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-28 09:44:22.048]	Already installed "tmux-resurrect"
+[2025-04-28 09:44:22.062]	Already installed "tmux-cpu"
+[2025-04-28 09:44:22.076]	Already installed "tmux-kubectx"
+[2025-04-28 09:44:22.091]	Already installed "tmux-continuum"
+[2025-04-28 09:44:22.107]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-28 09:44:22.313]	Updating all plugins!
+[2025-04-28 09:44:22.329]	
+[2025-04-28 09:44:23.010]	  "tmux-cpu" update success
+[2025-04-28 09:44:23.025]	    | Already up to date.
+[2025-04-28 09:44:23.039]	  "tmux-resurrect" update success
+[2025-04-28 09:44:23.053]	    | Already up to date.
+[2025-04-28 09:44:23.066]	  "tmux-continuum" update success
+[2025-04-28 09:44:23.080]	    | Already up to date.
+[2025-04-28 09:44:23.094]	  "tmux-kubectx" update success
+[2025-04-28 09:44:23.108]	    | Already up to date.
+[2025-04-28 09:44:23.123]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-28 09:44:23.239]	Done.
+
+[2025-05-12 14:22:41.732]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-12 14:22:41.748]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-12 14:22:42.141]	Already installed "tmux-cpu"
+[2025-05-12 14:22:42.155]	Already installed "tmux-resurrect"
+[2025-05-12 14:22:42.169]	Already installed "tmux-kubectx"
+[2025-05-12 14:22:42.185]	Already installed "tmux-continuum"
+[2025-05-12 14:22:42.202]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-12 14:22:42.458]	Updating all plugins!
+[2025-05-12 14:22:42.472]	
+[2025-05-12 14:22:43.122]	  "tmux-cpu" update success
+[2025-05-12 14:22:43.141]	    | Already up to date.
+[2025-05-12 14:22:43.169]	  "tmux-resurrect" update success
+[2025-05-12 14:22:43.187]	    | Already up to date.
+[2025-05-12 14:22:43.212]	  "tmux-continuum" update success
+[2025-05-12 14:22:43.226]	    | Already up to date.
+[2025-05-12 14:22:43.241]	  "tmux-kubectx" update success
+[2025-05-12 14:22:43.255]	    | Already up to date.
+[2025-05-12 14:22:43.269]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-12 14:22:43.372]	Done.
+
+[2025-05-15 16:08:24.474]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-15 16:08:24.474]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-15 16:08:24.495]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-15 16:08:24.495]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-15 16:08:24.789]	Already installed "tmux-continuum"
+[2025-05-15 16:08:24.790]	Already installed "tmux-continuum"
+[2025-05-15 16:08:24.802]	Already installed "tmux-resurrect"
+[2025-05-15 16:08:24.803]	Already installed "tmux-kubectx"
+[2025-05-15 16:08:24.816]	Already installed "tmux-kubectx"
+[2025-05-15 16:08:24.816]	Already installed "tmux-resurrect"
+[2025-05-15 16:08:24.828]	Already installed "tmux-cpu"
+[2025-05-15 16:08:24.829]	Already installed "tmux-cpu"
+[2025-05-15 16:08:24.842]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-15 16:08:24.843]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-15 16:08:25.038]	Updating all plugins!
+[2025-05-15 16:08:25.040]	Updating all plugins!
+[2025-05-15 16:08:25.052]	
+[2025-05-15 16:08:25.055]	
+[2025-05-15 16:08:41.060]	  "tmux-kubectx" update success
+[2025-05-15 16:08:41.067]	  "tmux-continuum" update success
+[2025-05-15 16:08:41.078]	    | Already up to date.
+[2025-05-15 16:08:41.083]	    | Already up to date.
+[2025-05-15 16:08:41.091]	  "tmux-continuum" update success
+[2025-05-15 16:08:41.096]	  "tmux-kubectx" update success
+[2025-05-15 16:08:41.104]	  "tmux-resurrect" update success
+[2025-05-15 16:08:41.108]	  "tmux-resurrect" update success
+[2025-05-15 16:08:41.116]	    | Already up to date.
+[2025-05-15 16:08:41.120]	  "tmux-cpu" update success
+[2025-05-15 16:08:41.128]	  "tmux-cpu" update success
+[2025-05-15 16:08:41.132]	    | Already up to date.
+[2025-05-15 16:08:41.140]	    | Already up to date.
+[2025-05-15 16:08:41.144]	    | Already up to date.
+[2025-05-15 16:08:41.152]	    | Already up to date.
+[2025-05-15 16:08:41.156]	    | Already up to date.
+[2025-05-15 16:08:41.165]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-15 16:08:41.169]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-15 16:08:41.283]	Done.
+
+[2025-05-15 16:08:41.284]	Done.
+
+[2025-05-16 14:36:45.900]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-16 14:36:45.926]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-16 14:36:46.080]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-16 14:36:46.099]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-16 14:36:46.288]	Already installed "tmux-cpu"
+[2025-05-16 14:36:46.297]	Already installed "tmux-continuum"
+[2025-05-16 14:36:46.301]	Already installed "tmux-resurrect"
+[2025-05-16 14:36:46.312]	Already installed "tmux-resurrect"
+[2025-05-16 14:36:46.314]	Already installed "tmux-continuum"
+[2025-05-16 14:36:46.325]	Already installed "tmux-kubectx"
+[2025-05-16 14:36:46.327]	Already installed "tmux-kubectx"
+[2025-05-16 14:36:46.338]	Already installed "tmux-cpu"
+[2025-05-16 14:36:46.339]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-16 14:36:46.352]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-16 14:36:46.544]	Updating all plugins!
+[2025-05-16 14:36:46.546]	Updating all plugins!
+[2025-05-16 14:36:46.561]	
+[2025-05-16 14:36:46.562]	
+[2025-05-16 14:36:47.520]	  "tmux-cpu" update success
+[2025-05-16 14:36:47.529]	  "tmux-cpu" update success
+[2025-05-16 14:36:47.552]	    | Already up to date.
+[2025-05-16 14:36:47.604]	    | Already up to date.
+[2025-05-16 14:36:47.629]	  "tmux-resurrect" update success
+[2025-05-16 14:36:47.639]	  "tmux-continuum" update success
+[2025-05-16 14:36:47.659]	    | Already up to date.
+[2025-05-16 14:36:47.669]	    | Already up to date.
+[2025-05-16 14:36:47.696]	  "tmux-continuum" update success
+[2025-05-16 14:36:47.709]	  "tmux-resurrect" update success
+[2025-05-16 14:36:47.721]	    | Already up to date.
+[2025-05-16 14:36:47.727]	    | Already up to date.
+[2025-05-16 14:36:47.736]	  "tmux-kubectx" update success
+[2025-05-16 14:36:47.740]	  "tmux-kubectx" update success
+[2025-05-16 14:36:47.748]	    | Already up to date.
+[2025-05-16 14:36:47.752]	    | Already up to date.
+[2025-05-16 14:36:47.762]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-16 14:36:47.766]	Invoking /Users/larago/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-16 14:36:47.871]	Done.
+[2025-05-16 14:36:47.871]	Done.
+
 
