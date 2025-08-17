@@ -670,3 +670,75 @@
 [2025-05-16 14:36:47.871]	Done.
 
 
+[2025-05-23 17:33:32.076]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-23 17:33:32.090]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-23 17:33:32.125]	Installing "tmux-cpu"
+[2025-05-23 17:33:32.140]	Installing "tmux-resurrect"
+[2025-05-23 17:33:32.152]	Installing "tmux-kubectx"
+[2025-05-23 17:33:32.181]	Installing "tmux-continuum"
+[2025-05-23 17:33:32.663]	  "tmux-continuum" download success
+[2025-05-23 17:33:32.736]	  "tmux-cpu" download success
+[2025-05-23 17:33:32.771]	  "tmux-kubectx" download success
+[2025-05-23 17:33:33.350]	  "tmux-resurrect" download success
+[2025-05-23 17:33:33.362]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-23 17:33:33.385]	Updating all plugins!
+[2025-05-23 17:33:33.400]	
+[2025-05-23 17:33:33.792]	  "tmux-kubectx" update success
+[2025-05-23 17:33:33.804]	    | Already up to date.
+[2025-05-23 17:33:33.842]	  "tmux-cpu" update success
+[2025-05-23 17:33:33.854]	    | Already up to date.
+[2025-05-23 17:33:33.865]	  "tmux-resurrect" update success
+[2025-05-23 17:33:33.877]	    | Already up to date.
+[2025-05-23 17:33:33.888]	  "tmux-continuum" update success
+[2025-05-23 17:33:33.901]	    | Already up to date.
+[2025-05-23 17:33:33.912]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-23 17:33:33.948]	Done.
+
+[2025-05-29 22:35:17.598]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-29 22:35:17.612]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-29 22:35:17.658]	Already installed "tmux-continuum"
+[2025-05-29 22:35:17.677]	Already installed "tmux-kubectx"
+[2025-05-29 22:35:17.690]	Already installed "tmux-resurrect"
+[2025-05-29 22:35:17.706]	Already installed "tmux-cpu"
+[2025-05-29 22:35:17.721]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-29 22:35:17.755]	Updating all plugins!
+[2025-05-29 22:35:17.774]	
+[2025-05-29 22:35:17.955]	List of discovered tpm plugins: tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tony-sol/tmux-kubectx
+[2025-05-29 22:35:17.973]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-29 22:35:18.117]	Already installed "tmux-continuum"
+[2025-05-29 22:35:18.133]	Already installed "tmux-resurrect"
+[2025-05-29 22:35:18.159]	Already installed "tmux-kubectx"
+[2025-05-29 22:35:18.176]	Already installed "tmux-cpu"
+[2025-05-29 22:35:18.191]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-29 22:35:18.199]	  "tmux-resurrect" update success
+[2025-05-29 22:35:18.219]	    | Already up to date.
+[2025-05-29 22:35:18.250]	Updating all plugins!
+[2025-05-29 22:35:18.265]	
+[2025-05-29 22:35:18.282]	  "tmux-cpu" update success
+[2025-05-29 22:35:18.298]	    | Already up to date.
+[2025-05-29 22:35:18.370]	  "tmux-kubectx" update success
+[2025-05-29 22:35:18.451]	    | Already up to date.
+[2025-05-29 22:35:18.464]	  "tmux-continuum" update success
+[2025-05-29 22:35:18.516]	    | Already up to date.
+[2025-05-29 22:35:18.531]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-29 22:35:18.572]	Done.
+
+[2025-05-29 22:35:18.831]	  "tmux-cpu" update success
+[2025-05-29 22:35:18.846]	    | Already up to date.
+[2025-05-29 22:35:18.859]	  "tmux-resurrect" update success
+[2025-05-29 22:35:18.872]	    | Already up to date.
+[2025-05-29 22:35:18.884]	  "tmux-continuum" update success
+[2025-05-29 22:35:18.897]	    | Already up to date.
+[2025-05-29 22:35:18.954]	  "tmux-kubectx" update success
+[2025-05-29 22:35:18.967]	    | Already up to date.
+[2025-05-29 22:35:18.985]	Invoking /home/lilian/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-29 22:35:19.021]	Removing "tmux-continuum"
+[2025-05-29 22:35:19.034]	  "tmux-continuum" clean success
+[2025-05-29 22:35:19.047]	Removing "tmux-cpu"
+[2025-05-29 22:35:19.059]	  "tmux-cpu" clean success
+[2025-05-29 22:35:19.073]	Removing "tmux-kubectx"
+[2025-05-29 22:35:19.085]	  "tmux-kubectx" clean success
+[2025-05-29 22:35:19.097]	Removing "tmux-resurrect"
+[2025-05-29 22:35:19.110]	  "tmux-resurrect" clean success
+[2025-05-29 22:35:19.123]	Done.
+
