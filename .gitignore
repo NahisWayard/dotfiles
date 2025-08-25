@@ -1,3 +1,4 @@
 !.config
 !.zshrc
 *
+.config/tmux/plugins/tpm_log.txt
