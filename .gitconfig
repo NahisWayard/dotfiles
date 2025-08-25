@@ -3,5 +3,12 @@
 # Please adapt and uncomment the following lines:
 	name = Lilian ARAGO
 	email = lilian.arago@outlook.fr
+	signingkey = /Users/larago/.ssh/github_lucca.pub
 [push]
 	default = current
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
