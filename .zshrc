@@ -120,6 +120,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export PATH=$(brew --prefix openssh)/bin:$PATH
 export PATH=$(brew --prefix podman)/bin:$PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
@@ -136,6 +138,8 @@ export do="-o yaml --dry-run=client"
 
 alias docker="podman"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export EDITOR=nano
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 alias g="git"
 alias gst="git status"
