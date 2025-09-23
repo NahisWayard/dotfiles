@@ -161,6 +161,15 @@ function zf() {
   fi
 }
 
+function zvc() {
+  local repo="$HOME/Dev/LuccaKube/Infra.Charts"
+  local tag
+  tag=$(git -C "$repo" for-each-ref --sort=-creatordate --format '%(refname:short)' refs/tags | fzf --height=40% --reverse --border)
+  if [[ -n "$tag" ]]; then
+    echo "$tag"
+  fi
+}
+
 function kgy() {
 	if [[ $1 == "secret" ]]; then
 		kubectl get -o yaml "$@" | yq '.stringData = (.data | with_entries(.value |= @base64d))'

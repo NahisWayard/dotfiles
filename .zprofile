@@ -16,8 +16,10 @@ export PATH="$PATH:/Users/larago/Library/Application Support/JetBrains/Toolbox/s
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+if which rbenv >/dev/null 2>&1; then
+  eval "$(rbenv init - --no-rehash zsh)"
+fi
 # Added by `rbenv init` on Mar 19 nov 2024 15:32:31 CET
-eval "$(rbenv init - --no-rehash zsh)"
 # Add .NET Core SDK tools
 export PATH="$PATH:/Users/larago/.dotnet/tools"
 
