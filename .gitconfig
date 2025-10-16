@@ -1,9 +1,7 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Lilian ARAGO
 	email = lilian.arago@outlook.fr
-	signingkey = /Users/larago/.ssh/github_lucca.pub
+	signingkey = /Users/larago/.ssh/github.pub
 [push]
 	default = current
 [gpg]
