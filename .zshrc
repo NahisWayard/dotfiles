@@ -142,6 +142,7 @@ export EDITOR=nano
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 alias g="git"
+alias gti="git"
 alias gst="git status"
 alias gc="git commit -m"
 alias gp="git push"
